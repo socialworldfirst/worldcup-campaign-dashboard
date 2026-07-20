@@ -1,0 +1,9 @@
+# Plaintext source never gets committed — only the AES-GCM ciphertext in index.html ships.
+# build.py carries every campaign figure inline; committing it would bypass the gate.
+build.py
+fetch_images.py
+
+# Python
+__pycache__/
+*.pyc
+.venv/
